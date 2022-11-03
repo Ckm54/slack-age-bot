@@ -42,7 +42,6 @@ func main() {
 			response.Reply(r)
 		},
 	})
-
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
